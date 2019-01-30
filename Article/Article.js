@@ -14,7 +14,7 @@ class Article {
 
   expandArticle() {
     this.domElement.classList.toggle('article-open')
-    if (this.expandButton.textContent = 'Close'{
+    if (this.expandButton.textContent = 'Close'){
       this.expandButton.textContent = 'Expand'
     }
     else{
@@ -32,5 +32,5 @@ class Article {
 
 */
 
-let articles = document.querySelectorAll(.articles);
+let articles = document.querySelectorAll('.articles');
 articles.forEach(article => new Article(article));
